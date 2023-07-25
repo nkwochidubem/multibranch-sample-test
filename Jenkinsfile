@@ -1,4 +1,4 @@
-pipelines {
+pipeline {
   agent { label "master" } 
   stages {
      stage('Hello'){
